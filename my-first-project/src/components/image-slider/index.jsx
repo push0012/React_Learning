@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
 import { useEffect, useState } from "react";
 import {BsArrowLeftCircleFill, BsArrowRightCircleFill} from 'react-icons/bs';
 function ImageSlider({url, limit = 5, page = 1}){
