@@ -3,7 +3,7 @@
 import './App.css'
 import Accourdian from './components/accordian'
 import ImageSlider from './components/image-slider'
-import LoadMoreData from './components/image-slider/load-more-data'
+import LoadMoreData from './components/load-more-data'
 import RandomColor from './components/random-color'
 import StarRating from './components/star-rating'
 
