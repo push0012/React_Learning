@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
 
-import './App.css'
+//import './App.css'
 import Accourdian from './components/accordian'
 import ImageSlider from './components/image-slider'
+import LightDarkMode from './components/light-dark-mode'
 import LoadMoreData from './components/load-more-data'
 import QRCodeGenerator from './components/qr-code-generator'
 import RandomColor from './components/random-color'
@@ -35,7 +36,10 @@ function App() {
       {/* <TreeView menus={menus} /> */}
 
       {/* 07 Component */}
-      <QRCodeGenerator/>
+      {/* <QRCodeGenerator/> */}
+
+      {/* 08 Component */}
+      <LightDarkMode/>
     </div>
   )
 }
