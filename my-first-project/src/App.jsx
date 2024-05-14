@@ -2,6 +2,7 @@
 
 //import './App.css'
 import Accourdian from "./components/accordian";
+import TabTest from "./components/custom-tabs/tab-test";
 import ImageSlider from "./components/image-slider";
 import LightDarkMode from "./components/light-dark-mode";
 import LoadMoreData from "./components/load-more-data";
@@ -40,7 +41,10 @@ function App() {
       {/* <LightDarkMode/> */}
 
       {/* 09 Component */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+
+      {/* 10 Component */}
+      <TabTest />
     </div>
   );
 }
