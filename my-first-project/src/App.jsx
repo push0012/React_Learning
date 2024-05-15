@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 
-import './App.css'
+import "./App.css";
 import Accourdian from "./components/accordian";
 import ModalTest from "./components/custom-modal-popup/modal-test";
 import TabTest from "./components/custom-tabs/tab-test";
@@ -11,6 +11,7 @@ import LoadMoreData from "./components/load-more-data";
 import QRCodeGenerator from "./components/qr-code-generator";
 import RandomColor from "./components/random-color";
 import ScrollIndicator from "./components/scroll-indicator";
+import SearchAutocomplete from "./components/search-autocomplete-with-api";
 import StarRating from "./components/star-rating";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
@@ -46,13 +47,16 @@ function App() {
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
       {/* 10 Component */}
-       {/* <TabTest />  */}
+      {/* <TabTest />  */}
 
       {/* 11 Component */}
       {/* <ModalTest/> */}
 
       {/* 12 Component */}
-      <GithubProfileFinder/>
+      {/* <GithubProfileFinder/> */}
+
+      {/* 13 Component */}
+      <SearchAutocomplete />
     </div>
   );
 }
