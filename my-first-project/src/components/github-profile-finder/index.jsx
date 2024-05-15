@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import User from "./user";
-
+import './style.css';
 
 function GithubProfileFinder() {
     const [userName, setUserName] = useState("sangammukherjee");
@@ -28,7 +28,7 @@ function GithubProfileFinder() {
 
     useEffect(() => {
         fetchGithubUserData();
-    }, []);
+    },);
 
     if (loading) {
         return <h1>Loading data ! Please wait</h1>

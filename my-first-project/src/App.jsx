@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 
-//import './App.css'
+import './App.css'
 import Accourdian from "./components/accordian";
 import ModalTest from "./components/custom-modal-popup/modal-test";
 import TabTest from "./components/custom-tabs/tab-test";
